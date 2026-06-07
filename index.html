@@ -9,6 +9,12 @@
     <title>Odin Sign-up form</title>
 </head>
 <body>
+    <div class="left">
+        <div class="logocontainer">
+        <h1><span><img class="logo" src="/assets/images/odinhead.jpg"></span>Odin</h1>
+        </div>
+    </div>
+    <div class="right">
     <div class="toptext">
         <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.</p>
         <p>Sign up <i>now</i> to get started.</p>
@@ -18,21 +24,28 @@
 
     <div class="signupform">
     <form action="/html/secondpage.html">
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname"><br>
-        <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" name="lastname"><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email"><br>
-        <label for="phonenumber">Phone Number</label>
-        <input type="tel" id="phonenumber" name="phonenumber"><br>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password"><br>
-        <label for="confirmpassword">Confirm Password</label>
-        <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+        <div class="formrow1">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname"><br>
+        </div>
+        <div class="formrow2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" id="phonenumber" name="phonenumber"><br>
+        </div>
+        <div class="formrow3">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"><br>
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+        </div>
         <input type="submit" value="Create Account">
     </form>
     </div>
     <p class="bottomtext">Already have an account? <b>Log in</b></p>
+    </div>
 </body>
 </html>
